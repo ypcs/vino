@@ -1,0 +1,5 @@
+ViNO-koodia
+
+ - likestats.py: työkalu facebookin liketilastojen (ja muu datan) automaattiseen hakuun; käyttö: python likestats.py sampledata.txt >sampleoutput.csv
+ - sampledata.txt esimerkki fb:n sivujen urlilistasta
+ - sampleoutput.csv esimerkki lopputuloksesta (csv-tiedosto, jonka voi avata esimerkiksi exceliin)

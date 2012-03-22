@@ -57,6 +57,9 @@ def main():
         dom = parseString(urlopen(XML_URL, data=POST_BODY).read())
     elif len(sys.argv) == 2:
         filename = sys.argv[1]
+        if not os.path.exists(filename):
+            print "File not found"
+            return 1
         dom = parse(filename)
     else:
         print "Invalid arguments."
